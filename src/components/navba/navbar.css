@@ -1,0 +1,37 @@
+.home__navbar{
+    padding: 2rem 6rem;
+   
+}
+.home__navbar-links {
+    position: relative;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:20px;
+    
+   
+
+}
+.home__navbar img{
+    width: 48.7px;
+    height: 34.78px;
+
+}
+.home__navbar-sign button{
+    padding: 0.5rem 3rem;
+    border-radius: 50px;
+    background: #9C69E2;
+    color:#fff;
+    border: none;
+    height: 59.63px;
+    font-weight: 800;
+}
+@media screen and (max-width: 700px) {
+     .home__navbar{
+        padding: 2rem 4rem;
+     }
+     .home__navbar-sign button{
+
+     }
+}
